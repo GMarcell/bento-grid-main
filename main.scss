@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+$Purple-100: hsl(254, 88%, 90%);
+$Purple-500: hsl(256, 67%, 59%);
+$Yellow-100: hsl(31, 66%, 93%);
+$Yellow-500: hsl(39, 100%, 71%);
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 7%);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.base-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans", system-ui;
+    flex-direction: column;
+
+  .first-card{
+    background-color: $Purple-500;
+  }
+}
